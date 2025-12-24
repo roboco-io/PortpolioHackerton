@@ -40,6 +40,34 @@ npm install
 
 결과물은 `slides/output/` 디렉토리에 저장됩니다.
 
+### 포트폴리오 테이블 생성
+CSV 파일에서 참가자 정보를 읽어 GitHub 리포지토리 및 GitHub Pages 정보를 자동으로 조회하여 마크다운 테이블을 생성합니다.
+
+#### 사전 준비
+- Python 3.x
+- GitHub CLI (`gh`) 설치 및 인증
+
+#### 주요 명령어
+```bash
+# 기본 실행 (attendee.csv, 2025-12-22 이후 생성된 리포지토리)
+make portfolio
+
+# 다른 CSV 파일 사용
+make portfolio CSV_FILE=data/attendees.csv
+
+# 다른 시작 날짜 지정
+make portfolio START_DATE=2025-12-20
+
+# 파일로 출력
+make portfolio PORTFOLIO_OUTPUT=portfolio_table.md
+```
+
+#### 직접 스크립트 실행
+```bash
+python3 scripts/generate_portfolio_table.py attendee.csv 2025-12-22
+python3 scripts/generate_portfolio_table.py attendee.csv 2025-12-22 -o output.md
+```
+
 ---
 
 ## 🚀 목표
