@@ -81,6 +81,7 @@ npm install
 | [hyeonz673](https://github.com/hyeonz673) | 황현지 | [calculator-demo](https://github.com/hyeonz673/calculator-demo), [legal-chatbot](https://github.com/hyeonz673/legal-chatbot), [Local-Legal-Insight](https://github.com/hyeonz673/Local-Legal-Insight), [RAG](https://github.com/hyeonz673/RAG), [recipe](https://github.com/hyeonz673/recipe) | [legal-chatbot](https://hyeonz673.github.io/legal-chatbot/), [recipe](https://hyeonz673.github.io/recipe/) |
 | [chlsuun](https://github.com/chlsuun) | 서민재 | [calculiator-demo](https://github.com/chlsuun/calculiator-demo), [calculiator-demo-](https://github.com/chlsuun/calculiator-demo-), [test](https://github.com/chlsuun/test) | [calculiator-demo-](https://chlsuun.github.io/calculiator-demo-/), [test](https://chlsuun.github.io/test/) |
 | [ShinEunJi58](https://github.com/ShinEunJi58) | 신은지 | [calculator-demo](https://github.com/ShinEunJi58/calculator-demo), [upstage-apply-demo](https://github.com/ShinEunJi58/upstage-apply-demo) | [calculator-demo](https://shineunji58.github.io/calculator-demo/), [upstage-apply-demo](https://shineunji58.github.io/upstage-apply-demo/) |
+| [sansammm](https://github.com/sansammm) | 김이진 | [calculcator-demo](https://github.com/sansammm/calculcator-demo), [calculcator-demo-2](https://github.com/sansammm/calculcator-demo-2), [upstage-apply-demo](https://github.com/sansammm/upstage-apply-demo) | - |
 
 **참고**:
 - 위 리포지토리들은 2025년 12월 22일 이후 생성된 해커톤 포트폴리오 프로젝트입니다.
