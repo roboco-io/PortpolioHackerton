@@ -79,8 +79,9 @@ npm install
 | [megaTRX](https://github.com/megaTRX) | 최대영 | [calculator](https://github.com/megaTRX/calculator), [Embedded-Portfolio](https://github.com/megaTRX/Embedded-Portfolio), [upstage-apply-demo](https://github.com/megaTRX/upstage-apply-demo) | [calculator](https://megatrx.github.io/calculator/), [upstage-apply-demo](https://megatrx.github.io/upstage-apply-demo/) |
 | [2216259-ctrl](https://github.com/2216259-ctrl) | 조은수 | [calculator-demo](https://github.com/2216259-ctrl/calculator-demo), [PomodoroTimer-demo](https://github.com/2216259-ctrl/PomodoroTimer-demo), [upstage-apply-demo](https://github.com/2216259-ctrl/upstage-apply-demo) | [calculator-demo](https://2216259-ctrl.github.io/calculator-demo/), [upstage-apply-demo](https://2216259-ctrl.github.io/upstage-apply-demo/) |
 | [hyeonz673](https://github.com/hyeonz673) | 황현지 | [calculator-demo](https://github.com/hyeonz673/calculator-demo), [legal-chatbot](https://github.com/hyeonz673/legal-chatbot), [Local-Legal-Insight](https://github.com/hyeonz673/Local-Legal-Insight), [RAG](https://github.com/hyeonz673/RAG), [recipe](https://github.com/hyeonz673/recipe) | [legal-chatbot](https://hyeonz673.github.io/legal-chatbot/), [recipe](https://hyeonz673.github.io/recipe/) |
+| [chlsuun](https://github.com/chlsuun) | 서민재 | [calculiator-demo](https://github.com/chlsuun/calculiator-demo), [calculiator-demo-](https://github.com/chlsuun/calculiator-demo-), [test](https://github.com/chlsuun/test) | [calculiator-demo-](https://chlsuun.github.io/calculiator-demo-/), [test](https://chlsuun.github.io/test/) |
+| [ShinEunJi58](https://github.com/ShinEunJi58) | 신은지 | [calculator-demo](https://github.com/ShinEunJi58/calculator-demo), [upstage-apply-demo](https://github.com/ShinEunJi58/upstage-apply-demo) | [calculator-demo](https://shineunji58.github.io/calculator-demo/), [upstage-apply-demo](https://shineunji58.github.io/upstage-apply-demo/) |
 
 **참고**:
 - 위 리포지토리들은 2025년 12월 22일 이후 생성된 해커톤 포트폴리오 프로젝트입니다.
 - GitHub Pages 링크는 `has_pages: true`로 설정된 리포지토리를 기준으로 작성되었습니다.
-- 일부 계정(chulsuun, ShinEunJi8)은 존재하지 않거나 접근할 수 없습니다.
