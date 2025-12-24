@@ -7,6 +7,7 @@
 #   make slides/01-Intro.pptx  - Build specific PPTX
 #   make clean        - Remove all generated files
 #   make watch        - Watch for changes and rebuild
+#   make portfolio    - Generate portfolio table from CSV
 
 # Directories
 SLIDES_DIR := slides
@@ -88,6 +89,23 @@ list:
 	@echo "Available slides:"
 	@for f in $(MD_FILES); do echo "  - $$(basename $$f .md)"; done
 
+# Portfolio table generation
+# Default values
+CSV_FILE ?= attendee.csv
+START_DATE ?= 2025-12-22
+PORTFOLIO_OUTPUT ?=
+
+# Generate portfolio markdown table
+# Usage: make portfolio [CSV_FILE=path/to/file.csv] [START_DATE=YYYY-MM-DD] [PORTFOLIO_OUTPUT=output.md]
+.PHONY: portfolio
+portfolio:
+	@echo "Generating portfolio table from $(CSV_FILE) (repos since $(START_DATE))..."
+ifdef PORTFOLIO_OUTPUT
+	@python3 scripts/generate_portfolio_table.py "$(CSV_FILE)" "$(START_DATE)" -o "$(PORTFOLIO_OUTPUT)"
+else
+	@python3 scripts/generate_portfolio_table.py "$(CSV_FILE)" "$(START_DATE)"
+endif
+
 # Help
 .PHONY: help
 help:
@@ -102,8 +120,17 @@ help:
 	@echo "  make watch                  Watch for changes and rebuild"
 	@echo "  make clean                  Remove all generated files"
 	@echo "  make list                   List all available slides"
+	@echo "  make portfolio              Generate portfolio table from CSV"
+	@echo ""
+	@echo "Portfolio Options:"
+	@echo "  CSV_FILE=<path>             CSV file path (default: attendee.csv)"
+	@echo "  START_DATE=<YYYY-MM-DD>     Filter repos created after this date (default: 2025-12-22)"
+	@echo "  PORTFOLIO_OUTPUT=<path>     Output file path (default: stdout)"
 	@echo ""
 	@echo "Examples:"
 	@echo "  make slide NAME=01-Intro"
 	@echo "  make slides/output/01-Intro.html"
 	@echo "  make slides/output/01-Intro.pptx"
+	@echo "  make portfolio"
+	@echo "  make portfolio CSV_FILE=data/attendees.csv START_DATE=2025-12-20"
+	@echo "  make portfolio PORTFOLIO_OUTPUT=portfolio_table.md"
