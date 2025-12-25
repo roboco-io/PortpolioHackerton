@@ -14,10 +14,10 @@
 
 ### 2. 교육용 슬라이드 (`slides/`)
 Marp를 활용하여 제작된 발표 자료입니다.
-*   `00-Motivation.md`: 동기 부여 및 학습의 의의
-*   `01-Intro.md`: 해커톤 및 과정 소개
-*   `02-AIDrivenStudy.md`: AI를 활용한 학습 방법론
-*   `03-Habits.md`: 실력 있는 개발자가 되기 위한 핵심 습관 설정
+*   **[00-Motivation.md](slides/00-Motivation.md)**: 동기 부여 및 학습의 의의
+*   **[01-Intro.md](slides/01-Intro.md)**: 해커톤 및 과정 소개
+*   **[02-AIDrivenStudy.md](slides/02-AIDrivenStudy.md)**: AI를 활용한 학습 방법론
+*   **[03-Habits.md](slides/03-Habits.md)**: 실력 있는 개발자가 되기 위한 핵심 습관 설정
 
 ---
 
